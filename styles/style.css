@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('categories.css');
 
 :root {
     --green1: #4CCD99;
@@ -30,7 +31,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: static;
+    position: sticky;
+    top: 0;
     box-shadow: 0px 0px 5px 1px var(--green1);
     max-width: 1200px;
     margin: auto;
@@ -253,6 +255,7 @@ body {
     display: flex;
     max-width: 300px;
     min-width: 200px;
+    height: 250px;
     text-align: center;
     flex-direction: column;
     align-items: center;
@@ -275,7 +278,6 @@ body {
     color: var(--green2);
     display: flex;
     font-size: 24px;
-    text-shadow: 0px 0px 20px var(--green1);
 }
 
 .divButtonMoreCategories {
@@ -348,7 +350,7 @@ body {
     width: 100%;
     padding: var(--gap15);
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #titleRecomenProducts {
