@@ -49,3 +49,7 @@
     color: var(--green1);
     text-align: start;
 }
+
+#footer {
+    border: none;
+}
